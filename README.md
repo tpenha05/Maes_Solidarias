@@ -67,6 +67,6 @@ python demo.ipynb
 
 ## Autores
 
-- [Alexandre](https://github.com/st4pzz)
+- [Alexandre](https://github.com/WeeeverAlex)
 - [Deena](https://github.com/DeenaElOrra)
 - [Thiago](https://github.com/tpenha05)
