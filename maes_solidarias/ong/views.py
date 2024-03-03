@@ -4,4 +4,5 @@ from django.shortcuts import render, redirect
 
 
 def index(request):
-    return redirect('accounts/login/')
+    # return redirect('accounts/login/')
+    return render(request, 'base.html')
