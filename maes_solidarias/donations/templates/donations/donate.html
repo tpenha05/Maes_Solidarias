@@ -1,0 +1,9 @@
+{% block content %}
+<h2>Faça sua Doação</h2>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <a href="{% url 'donations:doar' %}">Fazer uma doação</a>
+
+</form>
+{% endblock %}

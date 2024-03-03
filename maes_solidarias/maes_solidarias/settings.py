@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.staticfiles',
-    'ong.apps.OngConfig'
+    'ong.apps.OngConfig',
+    'donations.apps.DonationsConfig'
 
 ]
 
