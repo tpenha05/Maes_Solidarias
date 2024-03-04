@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.staticfiles',
     'ong.apps.OngConfig',
-    'donations.apps.DonationsConfig'
+    'donations.apps.DonationsConfig',
+    'loja.apps.LojaConfig',
 
 ]
 
