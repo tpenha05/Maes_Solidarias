@@ -7,6 +7,7 @@ class DonationForm(forms.ModelForm):
         fields = ['name', 'email', 'phone_number', 'birth_date', 'cpf', 'amount', 'periodicity']
         widgets = {
             'birth_date': forms.DateInput(attrs={'type': 'date'}),
-            'amount': forms.RadioSelect(choices=Donation.AMOUNT_CHOICES),
+            'amount': forms.Select(),
+            # 'amount': forms.RadioSelect(choices=Donation.AMOUNT_CHOICES),
             'periodicity': forms.Select(),
         }

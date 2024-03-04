@@ -6,6 +6,7 @@ class Donation(models.Model):
         (20, 'R$ 20'),
         (50, 'R$ 50'),
         (100, 'R$ 100'),
+        ('outro', 'Outro'),
         # Adicione mais opções conforme necessário
     ]
     
@@ -22,7 +23,7 @@ class Donation(models.Model):
     cpf = models.CharField(max_length=11, verbose_name='CPF', unique=True)
     amount = models.IntegerField(choices=AMOUNT_CHOICES, verbose_name='Valor da Doação')
     periodicity = models.CharField(max_length=1, choices=PERIODICITY_CHOICES, verbose_name='Periodicidade')
-    donation_date = models.DateTimeField(auto_now_add=True, verbose_name='Data da Doação')
+    donation_date = models.DateTimeField(auto_now_add=True, verbose_name='Data da Doação', choices=AMOUNT_CHOICES)
 
     def __str__(self):
         return f'{self.name} - {self.amount}'
