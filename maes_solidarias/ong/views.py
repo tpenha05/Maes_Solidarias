@@ -4,7 +4,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from .models import Doador
 
 def index(request):
-    return redirect('accounts/login/')
+    return render(request, 'base.html')
 
 @login_required
 def profile(request):
@@ -32,8 +32,6 @@ def create_profile(request):
         doador.save()
 
         return render(request, 'create_profile.html', {'doador': doador})
-
-
 
 
 
