@@ -32,6 +32,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'ong.apps.OngConfig',
+    'donations.apps.DonationsConfig',
+    'loja.apps.LojaConfig',
+    'accounts.apps.AccountsConfig',
     'django.contrib.auth',
     'django.contrib.messages',
     'allauth',
@@ -41,9 +45,6 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.staticfiles',
-    'ong.apps.OngConfig',
-    'donations.apps.DonationsConfig',
-    'loja.apps.LojaConfig',
 
 ]
 
@@ -146,4 +147,13 @@ ACCOUNT_AUTHENTICATION_METHOD = 'email'
 
 ACCOUNT_EMAIL_REQUIRED = True
 
+ACCOUNT_USER_MODEL_USERNAME_FIELD = None
+
+ACCOUNT_USERNAME_REQUIRED = False
+
+AUTH_USER_MODEL = 'accounts.CustomUser'
+
+ACCOUNT_FORMS = {
+    'signup': 'accounts.forms.CustomSignupForm',
+}
 
