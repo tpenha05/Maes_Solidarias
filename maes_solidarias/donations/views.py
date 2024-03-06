@@ -12,4 +12,4 @@ def donation_view(request):
         form = DonationForm()
 
     context = {'form': form}  # Certifique-se de que isso é um dicionário
-    return render(request, 'donations/donate.html', context)
+    return render(request, '../templates/donations/donate.html', context)
