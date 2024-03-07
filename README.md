@@ -21,6 +21,11 @@ Frontend: ![HTML Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-
 
 Back-end:  ![Django Badge](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 
+Projects do Projeto: 
+
+```
+py https://github.com/users/tpenha05/projects/3/views/1
+```
 
 ## Características
 
@@ -38,6 +43,10 @@ A fase inicial do projeto envolve a criação de um mockup para delinear a estru
 
 ```py
 https://maesolidarias.webflow.io/
+```
+
+## Apresentação
+```py
 ```
 ## Estágios de Desenvolvimento
 
