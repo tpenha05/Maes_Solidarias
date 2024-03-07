@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'donations.apps.DonationsConfig',
     'loja.apps.LojaConfig',
 
+
+
 ]
 
 MIDDLEWARE = [
