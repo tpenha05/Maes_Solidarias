@@ -1,3 +1,5 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'loja/css/loja.css' %}">
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,8 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listagem de Produtos</title>
 </head>
+<header>
+    <img src="../static/imagens/logo.png" alt="Logo Mães Solidárias" class="logo">
+</header>
 <body>
-    <h1>Listagem de Produtos</h1>
+    <h1 class="main-title" >Loja Maẽs Solidárias</h1>
+    <h3 class="descricao">Todos os valores arrecadados através de nossas ações são convertidos em doações e ações beneficentes para instituições idôneas, com resultados divulgados através de comunicado oficial, grupos de whats app e pelas redes sociais</h3>
     <ul>
         {% for produto in produtos %}
         <li>
