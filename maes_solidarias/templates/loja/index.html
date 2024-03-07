@@ -28,8 +28,10 @@
         <li>Nenhum produto disponível.</li>
         {% endfor %}
     </ul>
+    {% if user.is_superuser %}
     <button>
         <a href="add">Adicionar Produto</a>
     </button>
+    {% endif %}
 </body>
 </html>

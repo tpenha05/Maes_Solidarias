@@ -1,0 +1,59 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+div.forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Voltar {
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px; /* Rounded border */
+    background-color:#232323;
+    color: #fff;
+    text-decoration:none;
+    max-width: 6%;
+}
+
+.fazer_doacao {
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 auto;
+    border-radius: 10px; /* Rounded border */
+    background-color: #22264c;
+    color: white; /* Change the font color to red */
+
+}
+
+.title {
+    text-align: center;
+}
+
+.centro {
+    padding: 0px 20px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    /* margin: 3% 35%; */
+    /* transition: all 0.1s step-end; Transition effect */
+    position: absolute; /* Positioning */
+    left: 50%; /* Center horizontally */
+    top: 50%; /* Center vertically */
+    transform: translate(-50%, -50%); /* Center alignment */
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+header img {
+    width: 140px;
+    height: auto;
+    left: 50%;
+
+}
