@@ -9,8 +9,13 @@ body, html {
 
   }
 
+  .logo {
+    max-width: 150px;
+  }
 
-header {
+  
+
+  header {
     width: 100%;
     display: flex;
     justify-content: space-between; 
