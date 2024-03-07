@@ -15,6 +15,11 @@
         {% slot body %}
             {% csrf_token %}
             {% element fields form=form unlabeled=True %}
+            <label class="labels">Nome completo</label>
+            <div>{{ form.nome_completo }}</div>
+            <label class="labels">Telefone celular</label>
+            <div>{{ form.telefone_celular }}</div>
+
             {% endelement %}
             {% if redirect_field_value %}
                 <input type="hidden"
