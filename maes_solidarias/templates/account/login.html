@@ -1,6 +1,10 @@
 {% load static %}
 {% load i18n %}
+<<<<<<< HEAD
 <link rel="stylesheet" type="text/css" href="{% static 'loja/css/login.css' %}">
+=======
+<link rel="stylesheet" type="text/css" href="{% static '/accounts/css/login.css' %}">
+>>>>>>> ddec33a83dab5840d7e198b5b9f1580662b4600a
 <!DOCTYPE html>
 <html lang="pt">
     <head>
@@ -9,7 +13,9 @@
         <title>Login</title>
     </head>
 <header>
-    <img src="logo.png" alt="Logo Mães Solidárias" class="logo">
+    <a href="/" aria-current="page" class="home-link w-inline-block w--current">
+        <img src="{% static '/ong/images/ONG-I---MOCK-UP-2.png' %}" alt="Logo Mães Solidárias" class="logo">
+    </a>
 </header>
 <body>
     <h1 class="main-title" >Entrar</h1>

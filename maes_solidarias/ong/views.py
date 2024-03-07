@@ -30,6 +30,17 @@ def add_evento(request):
         form = EventoForm()
     return render(request, 'ong/add_evento.html', {'form': form})
 
+def natal(request):
+    return render(request, 'ong/natal.html')
+
+def pascoa(request):
+    return render(request, 'ong/pascoa.html')
+
+def inverno(request):
+    return render(request, 'ong/inverno.html')
+
+def criancas(request):
+    return render(request, 'ong/criancas.html')
 
 
 

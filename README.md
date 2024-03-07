@@ -14,9 +14,12 @@ Garantir que o site funcione como uma presença online robusta, aumentando o imp
 
 ## Tecnologias
 
-Frontend: [tecnologias/ferramentas específicas]
+Frontend: ![HTML Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+          ![CSS Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+          ![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+    
 
-Back-end: [tecnologias/ferramentas específicas]
+Back-end:  ![Django Badge](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 
 
 ## Características
@@ -53,7 +56,7 @@ Este projeto representa uma estreita colaboração entre a equipe de consultores
 ### Clone o repositório do nosso projeto:
 
 ```py
-https://github.com/...
+https://github.com/tpenha05/Maes_Solidarias
 ```
 
 ### Depois instale os requirements:
@@ -62,14 +65,20 @@ https://github.com/...
 pip install -r requirements.txt
 ```
 
-### Por fim, basta executar o arquivo notebook.ipynb: 
+### Por fim, basta executar o arquivo: 
 
 ```py
-python demo.ipynb
+python3 manage.py makemigrations
+```
+```py
+python3 manage.py migrate
+```
+```py
+python3 manage.py runserver
 ```
 
 ## Autores
 
-- [Alexandre](https://github.com/WeeeverAlex)
-- [Deena](https://github.com/DeenaElOrra)
-- [Thiago](https://github.com/tpenha05)
+- [Alexandre Wever](https://github.com/WeeeverAlex)
+- [Deena El Orra](https://github.com/DeenaElOrra)
+- [Thiago Penha](https://github.com/tpenha05)

@@ -22,7 +22,9 @@
 {% block content %}
   <div data-animation="default" data-collapse="none" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
     <div class="navbar-container w-container">
-      <a href="../templates/base.html" aria-current="page" class="home-link w-inline-block w--current"><img src="../static/ong/images/ONG-I---MOCK-UP-2.png" loading="lazy" sizes="(max-width: 991px) 92.796875px, (max-width: 1439px) 10vw, 9vw" srcset="../static/ong/images/ONG-I---MOCK-UP-2-p-500.png 500w, ../static/ong/images/ONG-I---MOCK-UP-2-p-800.png 800w, ../static/ong/images/ONG-I---MOCK-UP-2-p-1080.png 1080w, ../static/ong/images/ONG-I---MOCK-UP-2.png 1366w" alt="" class="logo-icon"></a>
+      <a href="/" aria-current="page" class="home-link w-inline-block w--current">
+        <img src="../static/ong/images/ONG-I---MOCK-UP-2.png" loading="lazy" sizes="(max-width: 991px) 92.796875px, (max-width: 1439px) 10vw, 9vw" srcset="../static/ong/images/ONG-I---MOCK-UP-2-p-500.png 500w, ../static/ong/images/ONG-I---MOCK-UP-2-p-800.png 800w, ../static/ong/images/ONG-I---MOCK-UP-2-p-1080.png 1080w, ../static/ong/images/ONG-I---MOCK-UP-2.png 1366w" alt="" class="logo-icon">
+      </a>
     </div>
   </div>
   <div data-animation="default" class="navbar-3 w-nav" data-easing2="ease" data-easing="ease" data-collapse="all" role="banner" data-no-scroll="1" data-duration="400" data-doc-height="1">
@@ -34,6 +36,13 @@
             <div class="bm-text-link">Campanhas</div>
           </a>
           <div class="nav-link-bg color1"></div>
+        </div>
+        <div>
+          <a href="#Experience" class="link-mask color5 w-inline-block">
+            <div class="bm-text-link">Doações</div>
+            <div class="bm-text-link">Campanha</div>
+          </a>
+          <div class="nav-link-bg color5"></div>
         </div>
         <div>
           <a href="#Projects" class="link-mask color2 w-inline-block">
@@ -67,9 +76,11 @@
     </nav>
     <div class="nav-right-container">
       <div class="nav-right middle-flex">
-        <div class="menu-button w-nav-button"><img src="../static/ong/images/Menu1.svg" loading="lazy" alt="" class="image-3"></div>
+        <div class="menu-button w-nav-button">
+          <img src="../static/ong/images/Menu1.svg" loading="lazy" alt="" class="image-3">
+        </div>
       </div>
-      <a href="sing-in.html" class="button-3 w-button">Login</a>
+      <a href="../accounts/login" class="button-3 w-button">Login</a>
     </div>
   </div>
   <section id="About" data-w-id="0d711baa-0505-e921-3921-29b353b0af06" class="about-section">
@@ -86,40 +97,12 @@
       </div>
       <h2 data-w-id="b7b26c9f-a686-200e-1821-6d83cf6d5e14" class="heading-xlarge">Mães solidárias</h2>
       <div class="photo-address-socials">
-        <div data-w-id="84c822e0-95bb-db52-87a3-6f2ba7e50238" class="about-image-wrapper"><img src="../static/ong/images/ONG-I---MOCK-UP-4.png" loading="lazy" sizes="(max-width: 767px) 90vw, (max-width: 991px) 480px, (max-width: 1439px) 38vw, 34vw" width="648" alt="John Winter Image" srcset="../static/ong/images/ONG-I---MOCK-UP-4-p-500.png 500w, ../static/ong/images/ONG-I---MOCK-UP-4-p-800.png 800w, ../static/ong/images/ONG-I---MOCK-UP-4-p-1080.png 1080w, ../static/ong/images/ONG-I---MOCK-UP-4.png 1366w" class="about-image"></div>
-      </div>
-    </div>
-  </section>
-  <div class="projects-two-row-slider">
-    <div class="projects-featured-wrapper w-dyn-list">
-      <div data-w-id="f5fa680a-fcc0-ef89-6e51-988d4accbd58" role="list" class="projects-featured-slider w-dyn-items w-row">
-        <div role="listitem" class="collection-item w-dyn-item w-col w-col-6">
-          <a data-w-id="e2de3193-aa53-93cf-8bb6-d6119e84b363" href="#" class="featured-project-image-link w-inline-block"><img alt="" loading="lazy" data-w-id="6ceeaabd-372f-4aa1-83d9-8fa51497aebd" src="" class="featured-projects-slider-item-image w-dyn-bind-empty">
-            <div data-w-id="80cfaf68-f4b7-a876-d377-9393d0988528" class="project-feature-fade-background">
-              <div class="project-feature-title w-dyn-bind-empty"></div>
-            </div>
-          </a>
+        <div data-w-id="84c822e0-95bb-db52-87a3-6f2ba7e50238" class="about-image-wrapper">
+          <img src="../static/ong/images/ONG-I---MOCK-UP-4.png" loading="lazy" sizes="(max-width: 767px) 90vw, (max-width: 991px) 480px, (max-width: 1439px) 38vw, 34vw" width="648" alt="John Winter Image" srcset="../static/ong/images/ONG-I---MOCK-UP-4-p-500.png 500w, ../static/ong/images/ONG-I---MOCK-UP-4-p-800.png 800w, ../static/ong/images/ONG-I---MOCK-UP-4-p-1080.png 1080w, ../static/ong/images/ONG-I---MOCK-UP-4.png 1366w" class="about-image">
         </div>
       </div>
-      <div class="w-dyn-empty">
-        <div>No items found.</div>
-      </div>
     </div>
-    <div class="projects-featured-wrapper reversed-features-slide w-dyn-list">
-      <div data-w-id="b893ead7-118d-023e-2897-452abd8a3dfa" role="list" class="projects-featured-slider w-dyn-items w-row">
-        <div role="listitem" class="collection-item w-dyn-item w-col w-col-6">
-          <a data-w-id="b893ead7-118d-023e-2897-452abd8a3dfc" href="#" class="featured-project-image-link w-inline-block"><img alt="" loading="lazy" data-w-id="08440018-8531-e1a0-a4f6-09bd75f7e653" src="" class="featured-projects-slider-item-image w-dyn-bind-empty">
-            <div data-w-id="b893ead7-118d-023e-2897-452abd8a3dfd" class="project-feature-fade-background">
-              <div class="project-feature-title w-dyn-bind-empty"></div>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="w-dyn-empty">
-        <div>No items found.</div>
-      </div>
-    </div>
-  </div>
+
   <div id="About-Bio" class="about-bio-section">
     <div data-w-id="55e67147-6f09-1975-60ea-fea7b9dcce68" class="infinite-loop-container works-text-loop w-container">
       <div class="text-loop-part">
@@ -143,6 +126,25 @@
       <p class="large-paragraph"><span>Com 8 anos de experiência, a <strong>Associação Mães Solidárias</strong></span> <span>começou com um pequeno grupo e uma ação através da compra de cobertores para aquecer alguns moradores de rua durante um inverno rigoroso.Desde então, nossos sonhos foram crescendo e nosso desejo de levar alegria, conforto, dignidade e melhor condição de vida ao maior número de pessoas foi aumentando, assim como nosso grupo de ação.</span></p>
     </div>
   </div>
+  <section id="Experience" class="experience-section">
+    <div class="row main-container w-container">
+      <h2 class="heading-large">Doações</h2>
+      <div class="experience-list-wrapper">
+        <div data-w-id="b80f307a-14b4-097e-02fc-94683a9ba047" class="experience-card gradient-variation-1">
+          <div class="experience-moving-card gradient-variation-1">
+            <h1 class="experience-title">Doação Mensal</h1>
+          </div>
+          <div class="experience-text">Ao optar pela Doação Mensal, você se compromete a apoiar nossa ONG com uma contribuição fixa mensal. Essa modalidade de doação cria uma fonte de receita previsível para nós, o que é crucial para o planejamento e a execução de longo prazo de nossos projetos. Sua contribuição mensal nos ajuda a sustentar nossas operações e a expandir nosso impacto.</div>
+        </div>
+        <div data-w-id="b80f307a-14b4-097e-02fc-94683a9ba056" class="experience-card gradient-variation-2">
+          <div class="experience-moving-card gradient-variation-2">
+            <h1 class="experience-title">Doação Única</h1>
+          </div>
+          <div class="experience-text">A opção de Doação Única permite que você faça uma contribuição pontual de qualquer valor de sua escolha. Este tipo de doação é ideal se você deseja apoiar nossa causa, mas prefere não se comprometer com um pagamento recorrente. A Doação Única é uma ótima maneira de contribuir para necessidades específicas e projetos em andamento, oferecendo suporte imediato às nossas atividades.</div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section id="Projects" class="lojinha-grid-section">
     <div data-w-id="55e67147-6f09-1975-60ea-fea7b9dcce68" class="infinite-loop-container works-text-loop w-container">
       <div class="text-loop-part">
@@ -162,39 +164,51 @@
         <div class="secondary-loop-text">Campanhas</div>
       </div>
     </div>
+    
     <div class="main-container projects-wrapper w-container">
       <div class="projects-grid-row w-dyn-list">
         <div role="list" class="projects-grid-list w-dyn-items">
-          <div data-w-id="8125f5fe-d7f1-57de-a336-23caeb32c9f3" role="listitem" class="project-grid-item w-dyn-item">
-            <a data-w-id="8125f5fe-d7f1-57de-a336-23caeb32c9f4" href="#" class="project-img-link w-inline-block"><img src="" loading="lazy" alt="" class="project-item-image w-dyn-bind-empty">
-              <div class="project-image-hover-text-loop">
-                <div class="project-image-loop-section">
-                  <h5 class="project-image-loop-heading">Clique •</h5>
-                  <h5 class="project-image-loop-heading">Saber mais •</h5>
-                  <h5 class="project-image-loop-heading">Clique •</h5>
-                  <h5 class="project-image-loop-heading">Saber mais•</h5>
-                </div>
-                <div class="project-image-loop-section">
-                  <h5 class="project-image-loop-heading">Clique•</h5>
-                  <h5 class="project-image-loop-heading">Saber mais•</h5>
-                  <h5 class="project-image-loop-heading">Clique •</h5>
-                  <h5 class="project-image-loop-heading">Saber mais •</h5>
-                </div>
-              </div>
+          
+          <!-- Início do Item do Projeto 1 -->
+          <div role="listitem" class="project-grid-item w-dyn-item">
+            <a href="/natal" class="project-img-link w-inline-block">
+              <img src="../static/ong/images/natal.jpeg" loading="lazy" alt="Descrição da Imagem 1" class="project-item-image">
             </a>
-            <div class="project-title-wrapper">
-              <div class="project-title-tags">
-                <div class="project-title w-dyn-bind-empty"></div>
-              </div>
-            </div>
-            <div class="project-grid-desc w-dyn-bind-empty w-richtext"></div>
+            <h5 class="project-title">Campanha de Natal</h5> <!-- Nome da Campanha 1 -->
           </div>
-        </div>
-        <div class="w-dyn-empty">
-          <div>No items found.</div>
+          <!-- Fim do Item do Projeto 1 -->
+    
+          <!-- Início do Item do Projeto 2 -->
+          <div role="listitem" class="project-grid-item w-dyn-item">
+            <a href="/inverno" class="project-img-link w-inline-block">
+              <img src="../static/ong/images/inverno.jpeg" loading="lazy" alt="Descrição da Imagem 2" class="project-item-image">
+            </a>
+            <h5 class="project-title">Campanha de Inverno</h5> <!-- Nome da Campanha 2 -->
+          </div>
+          <!-- Fim do Item do Projeto 2 -->
+    
+          <!-- Início do Item do Projeto 3 -->
+          <div role="listitem" class="project-grid-item w-dyn-item">
+            <a href="/pasco" class="project-img-link w-inline-block">
+              <img src="../static/ong/images/pascoa.jpg" loading="lazy" alt="Descrição da Imagem 3" class="project-item-image">
+            </a>
+            <h5 class="project-title">Campanha de Páscoa</h5> <!-- Nome da Campanha 3 -->
+          </div>
+          <!-- Fim do Item do Projeto 3 -->
+    
+          <!-- Início do Item do Projeto 4 -->
+          <div role="listitem" class="project-grid-item w-dyn-item">
+            <a href="/dia-das-criancas" class="project-img-link w-inline-block">
+              <img src="../static/ong/images/criancas.png" loading="lazy" alt="Descrição da Imagem 4" class="project-item-image">
+            </a>
+            <h5 class="project-title">Campanha para Dia das Crianças</h5> <!-- Nome da Campanha 4 -->
+          </div>
+          <!-- Fim do Item do Projeto 4 -->
+    
         </div>
       </div>
     </div>
+    
   </section>
   <section id="Lojinha" class="lojinha-grid-section">
     <div data-w-id="55e67147-6f09-1975-60ea-fea7b9dcce68" class="infinite-loop-container works-text-loop w-container">
@@ -527,7 +541,7 @@
     </div>
   </section>
   <div class="template-button">
-    <a data-w-id="3490cf42-ceeb-048f-08d0-cf80b22f900c" href="doacoes.html" class="outline-button w-inline-block">
+    <a data-w-id="3490cf42-ceeb-048f-08d0-cf80b22f900c" href="../donations/doar" class="outline-button w-inline-block">
       <div class="button-text-slide-container">
         <div id="w-node-_3490cf42-ceeb-048f-08d0-cf80b22f900e-b22f900c" class="button-text">Doe Agora!</div>
         <div id="w-node-_3490cf42-ceeb-048f-08d0-cf80b22f9010-b22f900c" class="button-text dark-text">Doe Agora!</div>
