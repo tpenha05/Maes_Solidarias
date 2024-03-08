@@ -36,7 +36,6 @@ INSTALLED_APPS = [
     'donations.apps.DonationsConfig',
     'loja.apps.LojaConfig',
     'accounts.apps.AccountsConfig',
-    'django.contrib.sites',
     'django.contrib.auth',
     'django.contrib.messages',
     'allauth',
@@ -46,6 +45,9 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.staticfiles',
+
+
+
 ]
 
 MIDDLEWARE = [
@@ -155,10 +157,7 @@ ACCOUNT_USER_MODEL_USERNAME_FIELD = None
 
 ACCOUNT_USERNAME_REQUIRED = False
 
-AUTH_USER_MODEL = 'accounts.MyCustomUser'
-
-SITE_ID = 1
-
+AUTH_USER_MODEL = 'accounts.CustomUser'
 
 ACCOUNT_FORMS = {
     'signup': 'accounts.forms.CustomSignupForm',
