@@ -1,0 +1,95 @@
+/* General body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    background-color: #fff; /* Adjust the color to match the navbar background */
+    padding: 10px 0;
+  }
+  
+  .logo-icon {
+    width: auto; /* Set the appropriate size for the logo */
+    height: 60px; /* Adjust based on the actual logo size */
+  }
+  
+  /* Project Overview Section */
+  .project-overview-section {
+    background-color: #f8f8f8; /* Adjust to match background */
+    padding: 50px 0;
+  }
+  
+  .project-container {
+    width: 80%;
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .project-heading {
+    font-size: 36px; /* Adjust to match the heading size */
+    color: #333; /* Adjust to match the text color */
+    margin-bottom: 30px;
+  }
+  
+  .project-main-image {
+    width: 100%;
+    max-width: 600px; /* Adjust to the size of the image */
+    margin-bottom: 20px;
+  }
+  
+  .project-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  /* Approach and Overview Headings */
+  .project-overview-heading,
+  .project-overview-approach {
+    font-size: 24px; /* Adjust to match */
+    color: #333; /* Adjust to match */
+    margin-bottom: 15px;
+  }
+  
+  /* Paragraphs */
+  p {
+    color: #666; /* Adjust to match */
+    font-size: 16px; /* Adjust to match */
+    line-height: 1.6;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    background-color: #eaeaea; /* Adjust to match */
+    padding: 30px 0;
+  }
+  
+  .contact-heading {
+    font-size: 20px; /* Adjust to match */
+    color: #333; /* Adjust to match */
+    margin-bottom: 15px;
+  }
+  
+  .link-2,
+  .phone {
+    color: #333; /* Adjust to match */
+    text-decoration: none;
+  }
+  
+  /* Socials */
+  .social-footer-item {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .project-details {
+      flex-direction: column;
+    }
+  }
+  
+  /* Adjust colors, font-sizes, and other styles to match the actual design */
+  
